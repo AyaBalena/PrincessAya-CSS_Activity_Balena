@@ -1,0 +1,71 @@
+/* 1. Global Page Styles */
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:rgb(153, 151, 151);
+}
+
+/* 2. Header Styles */
+header {
+    background-color: #828080;
+    color: dark gray;
+    text-align: center;
+    padding: 28px;
+}
+
+/* 3. Navigation Menu Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin:0%;
+    text-align: center;
+}
+
+nav ul li a {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: dark gray;
+    font-weight: bold;
+}
+
+/* 4. Resume Sections */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: dark gray;
+    border-radius: 5px;
+}
+
+/* 5. Headings (H2) */
+h2 {
+    color: #333;
+}
+
+/* 6. Experience Table */
+table{
+    width: 100;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* 7. Footer Styles */
+footer 
+{
+    background-color: #333;
+    color: dark gray;
+    text-align: center;
+    padding: 10px;
+}
